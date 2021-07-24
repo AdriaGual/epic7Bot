@@ -12,6 +12,8 @@
     - [Hunt](#hunt)
     - [Replay stage](#replay-stage)
     - [Upgrade 2 star fooders](#upgrade-2-star-fooders)
+- [Extra notes](#extra-notes)
+    - [Language](#language)
 
 ## Installation
 
@@ -47,7 +49,11 @@ Similar to Hunt, basically repeats a normal stage.
 
 Useful when you ran out of hero storage, just pick 2 star hero filter and this will merge all 2 star fooders into 3 star ones.
 
+## Extra notes
 
+### Language
+
+The bot only works in spanish, if you want to run in another language, you can override the pictures on the ´images´ folder with the corresponding ones.
 
 
 
