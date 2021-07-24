@@ -53,7 +53,7 @@ Useful when you ran out of hero storage, just pick 2 star hero filter and this w
 
 ### Language
 
-The bot only works in spanish, if you want to run in another language, you can override the pictures on the ´images´ folder with the corresponding ones.
+The bot only works in spanish, if you want to run it in another language, you can override the pictures on the ´images´ folder with the corresponding ones.
 
 
 
