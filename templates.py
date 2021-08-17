@@ -79,3 +79,7 @@ full_inventory = cv2.imread('images/replay_stage/full_inventory.PNG', 0)
 leaf_payment = cv2.imread('images/replay_stage/leaf_payment.PNG', 0)
 confirm_replay_stage = cv2.imread(
     'images/replay_stage/confirm_replay_stage.PNG', 0)
+has_soul = cv2.imread(
+    'images/has_soul.PNG', 0)
+dispatch_mission_repeat = cv2.imread(
+    'images/dispatch_mission_repeat.PNG', 0)

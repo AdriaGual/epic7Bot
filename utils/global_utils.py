@@ -36,3 +36,8 @@ def click_image(template, waitTime):
         return 1
     else:
         return 0
+
+
+def click_image_loop(template, waitTime):
+    while click_image(template, waitTime) == 0:
+        logging.warning('Not found: %s', template[0])

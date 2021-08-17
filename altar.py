@@ -11,26 +11,22 @@ logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
 
 android_connection.connect(0)
-logging.warning("----------")
-logging.warning("---REPLAY STAGE---")
-logging.warning("----------")
+logging.warning("-----------")
+logging.warning("---ALTAR---")
+logging.warning("-----------")
 
 while 1:
     while global_utils.click_image(templates.replay_stage_start_button, 1) == 0:
         logging.info("Start")
     global_utils.click_image(templates.leaf_payment, 2)
     global_utils.click_image(templates.replay_stage_start_button, 1)
-    while global_utils.click_image(templates.epic_seven_stage_clear, 1) == 0:
+    while global_utils.click_image(templates.epic_seven_stage_clear, 1) == 0 and global_utils.click_image(templates.epic_seven_stage_failed, 1) == 0:
         global_utils.click_image(templates.has_soul, 1)
         logging.info("Stage clear")
-    global_utils.click_image(templates.epic_seven_stage_clear, 2)
     global_utils.click_image(templates.cancel_friend_request, 3)
-    while global_utils.click_image(templates.confirm_stage_cleared, 2) == 0:
+    while global_utils.click_image(templates.confirm_stage_cleared, 1) == 0:
         logging.info("Confirm stage cleared")
-    global_utils.click_image(templates.confirm_stage_cleared, 2)
-    while global_utils.click_image(templates.another_time, 2) == 0:
+    global_utils.click_image(templates.confirm_stage_cleared, 1)
+    while global_utils.click_image(templates.another_time, 1) == 0:
         logging.info("Another time")
-    global_utils.click_image(templates.another_time, 2)
     global_utils.click_image(templates.confirm_replay_stage, 2)
-    while global_utils.click_image(templates.team_replay_stage, 1) == 0:
-        logging.info("Team replay stage")

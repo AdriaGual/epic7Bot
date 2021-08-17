@@ -7,4 +7,3 @@ import time
 android_connection.connect(0)
 
 arena.start_arena(5)
-
